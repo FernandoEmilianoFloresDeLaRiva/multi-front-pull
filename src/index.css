@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "kodchasan";
+  src: url("./assets/fonts/Kodchasan-Regular.ttf");
+}
+
+@font-face {
+  font-family: "inter";
+  src: url("./assets/fonts/Inter-ExtraLight.ttf");
+}
+
+:root {
+  color-scheme: light;
+  background-color: #f1f6ef;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  max-width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+}

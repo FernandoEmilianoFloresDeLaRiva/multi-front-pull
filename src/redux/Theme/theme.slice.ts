@@ -1,10 +1,10 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { setThemeReducer } from "./reducers/setTheme.reducer";
-import { ReduxSliceName } from "../entities";
+import { ReduxSliceName, ThemeOptions } from "../entities";
 
 export const themeSlice = createSlice({
   name: ReduxSliceName.THEME,
-  initialState: "",
+  initialState: ThemeOptions.ANFIBIOS,
   reducers: {
     setTheme: setThemeReducer,
   },
